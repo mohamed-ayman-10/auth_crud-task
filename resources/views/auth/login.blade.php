@@ -2,6 +2,7 @@
 @section('title', 'login')
 @section('Header', 'login')
 @section('content')
+    {{-- {{ dd(bcrypt(1234)) }} --}}
     <form action="" method="post">
         @csrf
         <div class="mb-3 flex-wrap w-50 mx-auto d-flex align-items-center justify-content-between">
